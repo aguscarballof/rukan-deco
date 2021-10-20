@@ -1,0 +1,87 @@
+/* HTML */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* FONTS NOTO SANS LIGHT */
+/* font-family: 'Noto Sans TC', sans-serif; */
+html {
+  font-family: "Noto Sans TC", sans-serif;
+  font-style: unset;
+  font-size: 62, 5%;
+  /*1 rem pasa a tener el valor de 10px*/
+}
+
+/* HEADER */
+.menu-container {
+  width: 100%;
+  font-family: "Noto Sans TC", sans-serif;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.menu-container .photo-logo {
+  width: 20%;
+}
+
+/* FOOTER */
+.footer-menu {
+  width: 100%;
+  display: flex;
+}
+.footer-menu .footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.footer-menu .footer-container .div-footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.footer-menu .footer-container .div-footer .footer-png {
+  width: 3rem;
+  height: 3rem;
+}
+.footer-menu .footer-container .div-footer .texto-footer {
+  color: #000;
+  align-items: center;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+/* TIENDA */
+catalogo {
+  font-family: "Noto Sans TC", sans-serif;
+  margin: 3rem 3rem 3rem 3rem;
+}
+.tittle-catalogo {
+  margin: 3rem;
+}
+
+.card-catalogo {
+  transition: transform 2s;
+  margin-bottom: 8rem;
+  margin: 3rem;
+}
+.card-catalogo:hover {
+  transform: scale(1.1);
+}
+.btn {
+  background-color: rgb(177, 118, 118);
+  border-radius: 2rem;
+}
+.cta-links {
+  color: #fff;
+
+  font-style: none;
+}
+
+/* FOOTER */
+.footer-menu {
+  background-color: rgb(202, 141, 141);
+}
